@@ -25,7 +25,7 @@ namespace ExampleMod.Items.Weapons
 			item.noMelee = true; //When the item's animation does no damage because this is a summon weapon
 			item.value = Item.buyPrice(0, 20, 0, 0); //0 is platinum coins, 20 is gold coins, the other 0s are silver and copper coins
 			item.sentry = true;
-			item.knockBack = 5f; //The knockback to enemies for your weapon
+			item.knockBack = 5f;
 			item.summon = true; //This will be a summon weapon
 			item.rare = ItemRarityID.Cyan; //The color rarity of the weapon, which is cyan-colored
 			item.shoot = mod.ProjectileType("ExampleSentry"); //This is mandatory, since this is a sentry summon
