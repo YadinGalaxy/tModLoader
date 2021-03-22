@@ -21,7 +21,7 @@ namespace ExampleMod.Projectiles.Minions
 			projectile.sentry = true; //This will tell that this is a sentry minion
 			projectile.width = 59; //The width of the sentry
 			projectile.height = 59; //The height of the sentry
-			projectile.ignoreWater = true; //This will make the sentry not disappear when it touches water
+			projectile.ignoreWater = true; //This will make the sentry not move slow when it touches water
 			projectile.timeLeft = 30000; //The amount of time the sentry will be protecting you until it despawns
 			projectile.penetrate = -1; //Amount of enemies that the sentry can hit each time before the sentry is destroyed,
 			projectile.friendly = true; //The sentry will not harm the player and friendly NPCs if this is true
